@@ -106,25 +106,20 @@
 	];
 	    
 	randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
-	quoteAuthor=randomQuote.split("@");
-		$('.saying').text(quoteAuthor[0]);
+	
+    quoteAuthor=randomQuote.split("@");
+		$('.quote').text(quoteAuthor[0]);
 		$('.author').text(quoteAuthor[1]);
 }
-  
-	$(".new-quote").on( "click", function() {
+   
+   function shareQuote(quote, author) {
+    var webpage = "http://codepen.io/lindakovacs/pen/EWjyyZ";
+    var twitterAction = "https://twitter.com/intent/tweet?text=";
+    $('#tweetBtn').attr("href", twitterAction + quote + " -" + author + " " + webpage); 
+ } 
+   
+	$("#new-quote").on("click", function() {
 		generate();
 	});  
 	  
 });
-	  
-  
-   function shareQuote(saying, author) {
-    var webpage = "http://codepen.io/lindakovacs/pen/EWjyyZ";
-    var twitterAction = "https://twitter.com/intent/tweet?text=";
-    $("#tw-share-btn").attr("href", twitterAction + saying + " -" + author + " " + webpage);
- }
-  addQuote();
-  $("#new-quote").click(addQuote);
-  
-	 
- 
