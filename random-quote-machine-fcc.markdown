@@ -2,6 +2,6 @@ Random Quote Machine FCC
 ------------------------
 
 
-A [Pen](http://codepen.io/lindakovacs/pen/ZeGpxo) by [Linda Kovacs](http://codepen.io/lindakovacs) on [CodePen](http://codepen.io/).
+A [Pen](https://codepen.io/lindakovacs/pen/ZeGpxo) by [Linda Kovacs](https://codepen.io/lindakovacs) on [CodePen](https://codepen.io).
 
-[License](http://codepen.io/lindakovacs/pen/ZeGpxo/license).
+[License](https://codepen.io/lindakovacs/pen/ZeGpxo/license).
